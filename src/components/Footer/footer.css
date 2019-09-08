@@ -3,6 +3,9 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  background-color: rgb(8, 8, 153);
+  padding: 50px;
+  color: antiquewhite;
 }
 
 /* for smaller devices */

@@ -7,7 +7,6 @@ import styles from './App.css';
 const App = () => {
   return (
     <div className={styles.App}>
-      <h1>Alphamarineupholstery</h1>
         <BrowserRouter>
           <Layout>
             <Routes />
