@@ -1,5 +1,11 @@
 .container {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.row {
+  display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-bottom: 20px;
@@ -10,4 +16,8 @@
   width: 25vw;
   background-color: brown;
   height: 20vw;
+}
+.map {
+  height: 20vw;
+  width: 40vw;
 }
