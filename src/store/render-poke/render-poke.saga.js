@@ -8,7 +8,7 @@ import  {
 
 function* getPokeSaga() {
 	try {
-    const { genera }  = yield call(api.getPoke);
+    const { data: { genera} }  = yield call(api.getPoke);
     yield put(getPokeSucceeded(genera));
 	} catch(err) {
 		console.log('error in saga', err.message);

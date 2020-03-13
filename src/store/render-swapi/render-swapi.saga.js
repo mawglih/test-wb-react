@@ -9,7 +9,7 @@ import  {
 
 function* getSwapiSaga() {
 	try {
-    const { results }  = yield call(api.getSwapi);
+    const { data: { results } } = yield call(api.getSwapi);
     yield put(getSwapiSucceeded(results));
 	} catch(err) {
 		console.log('error in saga', err);

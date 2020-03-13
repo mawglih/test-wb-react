@@ -27,13 +27,14 @@ const Home = () => {
     if(ships && ships.length < 1) {
       actions.getSwapi();
     }
-
-		// actions.getPoke();
+    if(poke && poke.length < 1) {
+      actions.getPoke();
+    }
 	},);
 
   return (
     <>
-      {/* <h1 className={styles.mainTitle}>{title}</h1>
+      <h1 className={styles.mainTitle}>{title}</h1>
       <div className={styles.container}>
         {!shipError && <ListItem
           loading={shipsLoading}
@@ -41,12 +42,12 @@ const Home = () => {
           title='Starships'
         />}
         {!pokeError && <ListItem
-          loading={pokeLoading}
-          items={poke}
-          title='Pokemons'
+          loading2={pokeLoading}
+          poke={poke}
+          title2='Pokemons'
         />
         }
-      </div> */}
+      </div>
     </>
   );
 }

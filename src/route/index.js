@@ -6,7 +6,6 @@ import Swapi from '../components/Swapi';
 
 const index = () => (
   <Switch>
-    
     <Route exact path='/poke' component={Poke} />
     <Route path='/swapi' component={Swapi} />
     <Route exact path='/' component={Home} />

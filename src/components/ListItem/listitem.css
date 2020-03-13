@@ -1,0 +1,8 @@
+.column  h2{
+  color: blueviolet;
+}
+.item {
+  border: 1px blue dotted;
+  text-align: left;
+  padding: 20px;
+}
