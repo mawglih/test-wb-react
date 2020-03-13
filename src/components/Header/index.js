@@ -6,9 +6,8 @@ const index = () => {
   return (
     <div className={styles.container}>
       <Link to="/">Logo</Link>
-      <Link to="/awnings">Awnings</Link>
-      <Link to="/upholstery">Upholstery</Link>
-      <Link to="/enclosure">Enclosure</Link>
+      <Link to="/swapi">Starships</Link>
+      <Link to="/poke">Pokemons</Link>
     </div>
   )
 }
